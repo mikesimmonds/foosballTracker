@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>tracking.js - color with video</title>
+    <script src="./assets/tracking-min.js"></script>
+  </head>
+  <body>
+    <div class="demo-title">
+      <p>TOP SPEED:<span id="speedo">1</span> PIXELS PER SECOND</p>
+      <p>DIRECTION:<span id="direction">none</span></p>
+      <p onclick="video.play()">play</p>
+      <p onclick="video.pause()">pause</p>
+      <p onclick="console.log('TIMESTAMP')">Timestamp</p>
+      <p onclick="clearScreen()">Clearscreen</p>
+      <button id="setLeftGoal">Set Left goal</button>
+      <button id="setRightGoal">Set Right goal</button>
+      <div id="cantSee">
+        <span>Can't see</span>
+        <input id="cantSeeBuffer" type="number" value="20">
+      </div>
+      <div id="rightBox">
+        <span>Right Box >></span>
+        <!--<input id="cantBuffer" type="number" value="20">-->
+      </div>
+    </div>
+    <!--<div class="score-board">-->
+      <!--<span class="left-score">-</span>-->
+      <!--<span class="right-score">-</span>-->
+    <!--</div>-->
+    <div class="demo-frame">
+      <div class="demo-container">
+        <!--<div id="rectangle"></div>-->
+        <video id="video" width="800" height="500" autoplay preload muted loop controls>
+          <source src="../public/joeriVSmike.mp4" type="video/mp4">
+        </video>
+        <canvas id="canvas" width="800" height="500"></canvas>
+        <canvas id="boxCanvas" width="800" height="500"></canvas>
+      </div>
+    </div>
+  <div id="pics"></div>
+  </body>
+</html>

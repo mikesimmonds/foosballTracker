@@ -1,0 +1,50 @@
+
+.hello {
+	color: red;
+}
+
+.demo-frame {
+	height: 600px;
+}
+.demo-container {
+	background-color: black;
+}
+
+video, canvas {
+	position: absolute;
+}
+
+#pics {
+	position: relative;
+	top: 0;
+}
+
+#cantSee, #rightBox {
+	margin-left: 20px;
+	width: 70px;
+	height: 50px;
+	background-color: mediumspringgreen;
+}
+
+.red-background {
+	background-color: red !important;
+}
+
+.score-board {
+	width: 800px;
+	height: 200px;
+	display: flex;;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.score-board .left-score {
+	flex: 1 1 33%;
+}
+
+.score-board .right-score {
+	flex: 1 1 33%;
+}
+
