@@ -3,9 +3,11 @@
 
 ### Build instruction
 Check the package.json scripts.</br>
-npm start will get you a long way however!
+npm install
+npm start
+
 
 ### Architecture
-Very briefly, the events emitteed by the object tracker are converted to an abservable stream (tracker$)
+Very briefly, the events emitted by the object tracker are converted to an Observable stream (tracker$)
 </br>
 Various RxJs operators (operators.ts) are then used on this stream to change the values into something more usable eg speed$
