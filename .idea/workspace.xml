@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffc993c7-b2ac-4b4d-bf61-ddf7fcf2bbad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -57,7 +57,7 @@
       <workItem from="1580052874712" duration="1739000" />
       <workItem from="1580114802377" duration="22000" />
       <workItem from="1584523327395" duration="2000" />
-      <workItem from="1586962505571" duration="491000" />
+      <workItem from="1586962505571" duration="741000" />
     </task>
     <task id="LOCAL-00001" summary="add TS and ts-loader to the local project">
       <created>1580054560618</created>
@@ -66,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580054560618</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update webpack due to vunerability in dependency (acorn)">
+      <created>1586963082759</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586963082759</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -84,17 +91,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tsc issues" />
     <MESSAGE value="add TS and ts-loader to the local project" />
-    <option name="LAST_COMMIT_MESSAGE" value="add TS and ts-loader to the local project" />
+    <MESSAGE value="update webpack due to vunerability in dependency (acorn)" />
+    <option name="LAST_COMMIT_MESSAGE" value="update webpack due to vunerability in dependency (acorn)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580053018203">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1580053018203" />
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1586963061556">
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1586963082606">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900/1440.-455.2560.1440@0.0.1440.900" timestamp="1586963061556" />
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900/1440.-455.2560.1440@0.0.1440.900" timestamp="1586963082606" />
     <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580054560355" />
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1580054527252">
       <screen x="0" y="0" width="1440" height="900" />
