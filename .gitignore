@@ -3,3 +3,6 @@ public
 
 // ignore node_modules
 node_modules
+
+// ignore IDE settings
+*.iml
